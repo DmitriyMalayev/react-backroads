@@ -3,7 +3,7 @@ import {toursData} from "../data";
 
 const Tour = () => {
     return (
-        <div className="section-center featured-center">
+        <div className="section-center featured-center" >
             {toursData.map((tour) => {
                 return (
                     <article className="tour-card" key={tour.id}>

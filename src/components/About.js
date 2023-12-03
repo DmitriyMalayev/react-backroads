@@ -22,7 +22,7 @@ const About = () => {
                         <p>
                             Example Paragraph
                         </p>
-                        <a href="#about" className="btn">read more</a>
+                        <a href={"#about"} className={"btn"}>Read More</a>
                     </article>
                 </div>
             </section>
